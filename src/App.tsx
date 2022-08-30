@@ -1,24 +1,14 @@
 import React from "react";
 import "antd/dist/antd.css";
 import "./App.css";
-import AppRegister from "./components/AppRegister";
-import AppView from "./components/AppView";
-import { Tabs } from "antd";
+import AppLeagueTable from "./components/AppLeagueTable";
 
 function App() {
-  const { TabPane } = Tabs;
-
   return (
     <section className="App">
-      <h1>Welcome to Copenotes</h1>
-      <Tabs type="card" destroyInactiveTabPane={true}>
-        <TabPane tab="Add Users" key="1">
-          <AppRegister />
-        </TabPane>
-        <TabPane tab="View Users" key="2">
-          <AppView />
-        </TabPane>
-      </Tabs>
+      <h1 className="center-text">Welcome to the premier league</h1>
+
+      <AppLeagueTable />
     </section>
   );
 }
