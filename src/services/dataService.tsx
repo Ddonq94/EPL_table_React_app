@@ -91,6 +91,7 @@ export const data = [
 let leagueTable: any[] = [];
 
 export const getTableFromJSON = () => {
+  leagueTable = [];
   for (let entry of data) {
     const { score } = entry;
     const entries = Object.entries(score);

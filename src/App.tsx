@@ -6,7 +6,7 @@ import AppLeagueTable from "./components/AppLeagueTable";
 function App() {
   return (
     <section className="App">
-      <h1 className="center-text">Welcome to the premier league</h1>
+      <h1 className="center-text">Welcome to The Premier League</h1>
 
       <AppLeagueTable />
     </section>
