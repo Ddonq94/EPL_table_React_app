@@ -1,4 +1,5 @@
-export const data = [
+// ==============================variables and constants====================================
+const data = [
   {
     score: {
       "Manchester United": 1,
@@ -90,39 +91,32 @@ export const data = [
 
 let leagueTable: any[] = [];
 
-export const getTableFromJSON = () => {
-  leagueTable = [];
-  for (let entry of data) {
-    const { score } = entry;
-    const entries = Object.entries(score);
+const baseDateObj = new Date(Date.parse("2021-05-05T14:00:00"));
 
-    const teamA = [...entries[0]];
-    const teamB = [...entries[1]];
+// ==============================helper methods====================================
+const isAfterBase = (date1: any) => {
+  return date1 > baseDateObj;
+};
 
-    if (teamA[1] === teamB[1]) {
-      teamA.push("draw");
-      teamB.push("draw");
-      // @ts-ignore
-    } else if (teamA[1] > teamB[1]) {
-      teamA.push("win");
-      teamB.push("loss");
-    } else {
-      teamA.push("loss");
-      teamB.push("win");
-    }
+const getCleanedData = () => {
+  // add isFutureFixture flag and dateObj (sorted by date) to data array
+  return data
+    .map((entry) => {
+      let dateObj = new Date(Date.parse(entry.date));
+      let isFutureFixture = isAfterBase(dateObj);
 
-    addTeamEntry(teamA, teamB);
-    addTeamEntry(teamB, teamA);
-  }
-
-  return leagueTable.sort((a, b) => b.points - a.points || b.gd - a.gd);
+      return { ...entry, isFutureFixture, dateObj };
+    })
+    .sort((a: any, b: any) => a.dateObj - b.dateObj);
 };
 
 const teamExistsInTable = (table: any, teamName: any) => {
+  //check if team has an entry in the leagueTable already
   return table.find((team: any) => team.name === teamName);
 };
 
 const addTeamEntry = (team: any, rival: any) => {
+  // use fixture to add item to leagueTable
   const oldTeamRecord = teamExistsInTable(leagueTable, team[0]);
 
   if (oldTeamRecord) {
@@ -162,4 +156,48 @@ const addTeamEntry = (team: any, rival: any) => {
     newTeamObject.points = newTeamObject.won * 3 + newTeamObject.drawn;
     leagueTable.push(newTeamObject);
   }
+};
+
+// exports
+export const getTableFromJSON = () => {
+  // use the cleaned data to generate the leagueTable Array
+  leagueTable = [];
+
+  const tableData = getCleanedData();
+
+  for (let entry of tableData) {
+    if (entry.isFutureFixture) {
+      continue;
+    }
+    const { score } = entry;
+    const entries = Object.entries(score);
+
+    const teamA = [...entries[0]];
+    const teamB = [...entries[1]];
+
+    if (teamA[1] === teamB[1]) {
+      teamA.push("draw");
+      teamB.push("draw");
+      // @ts-ignore
+    } else if (teamA[1] > teamB[1]) {
+      teamA.push("win");
+      teamB.push("loss");
+    } else {
+      teamA.push("loss");
+      teamB.push("win");
+    }
+
+    addTeamEntry(teamA, teamB);
+    addTeamEntry(teamB, teamA);
+  }
+
+  // sort by points first then by goal difference
+  return leagueTable.sort((a, b) => b.points - a.points || b.gd - a.gd);
+};
+
+export const getTeamFixtures = (teamName: any) => {
+  // get all fixtures for the given team
+  return getCleanedData().filter((entry) => {
+    return Object.keys(entry.score).includes(teamName);
+  });
 };

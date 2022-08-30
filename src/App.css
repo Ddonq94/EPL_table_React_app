@@ -6,3 +6,18 @@
 .center-text {
   text-align: center;
 }
+
+.fixture-wrapper {
+  border: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  padding: 5px;
+}
+
+.fixture-flex-out {
+  display: flex;
+  gap: 1rem;
+}
