@@ -89,6 +89,30 @@ const data = [
   },
 ];
 
+const clubs = {
+  "Leicester City": {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t13.png",
+  },
+  Liverpool: {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t14.png",
+  },
+  "Manchester United": {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t1.png",
+  },
+  "Manchester City": {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t43.png",
+  },
+  "Tottenham Hotspur": {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t6.png",
+  },
+  Chelsea: {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t8.png",
+  },
+  Arsenal: {
+    logo: "https://resources.premierleague.com/premierleague/badges/25/t3.png",
+  },
+};
+
 let leagueTable: any[] = [];
 
 const baseDateObj = new Date(Date.parse("2021-05-05T14:00:00"));
@@ -200,4 +224,9 @@ export const getTeamFixtures = (teamName: any) => {
   return getCleanedData().filter((entry) => {
     return Object.keys(entry.score).includes(teamName);
   });
+};
+
+export const getTeamData = (teamName: string) => {
+  // @ts-ignore
+  return clubs[teamName];
 };

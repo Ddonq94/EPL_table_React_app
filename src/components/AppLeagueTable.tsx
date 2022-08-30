@@ -1,6 +1,7 @@
 import { Button, Table } from "antd";
 import { useEffect, useState } from "react";
 import { getTableFromJSON } from "../services/dataService";
+import AppClub from "./AppClub";
 import AppViewClub from "./AppViewClub";
 
 function AppLeagueTable({ testID = "AppLeagueTable" }: any) {
@@ -32,7 +33,7 @@ function AppLeagueTable({ testID = "AppLeagueTable" }: any) {
       render: (text: any, record: any) => {
         return (
           <Button type="link" onClick={() => handleTeamClick(record.name)}>
-            {record.name}
+            <AppClub clubName={record.name} />
           </Button>
         );
       },

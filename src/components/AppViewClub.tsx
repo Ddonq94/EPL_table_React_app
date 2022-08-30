@@ -27,7 +27,7 @@ function AppViewClub({
       onClose={handleClose}
       visible={visible}
       data-testid={testID}
-      width={1000}
+      width={700}
     >
       {teamFixtures.map((fixture: any) => {
         let itemKey = JSON.stringify(fixture)
