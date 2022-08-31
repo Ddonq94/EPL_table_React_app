@@ -13,10 +13,9 @@ function AppViewClub({
 
   useEffect(() => {
     if (!currentTeam) {
-      handleClose();
+      handleClose && handleClose();
     }
     let fixtures = getTeamFixtures(currentTeam);
-    console.log(fixtures);
     setTeamFixtures(fixtures);
   }, [currentTeam]);
 
@@ -30,9 +29,10 @@ function AppViewClub({
       width={700}
     >
       {teamFixtures.map((fixture: any) => {
-        let itemKey = JSON.stringify(fixture)
+        const itemKey = JSON.stringify(fixture)
           .replace(/"|{|}|:|,|-/g, "")
-          .replaceAll(" ", "");
+          .replace(" ", "");
+
         return <AppFixture fixture={fixture} key={itemKey} />;
       })}
     </Drawer>

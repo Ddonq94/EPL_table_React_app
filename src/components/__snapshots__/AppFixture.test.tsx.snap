@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fixture rendering renders AppFixture match snapshot 1`] = `
+<div
+  class="fixture-wrapper"
+  data-testid="AppFixture"
+>
+  <h3
+    data-testid="AppFixtureHeading"
+  >
+    04/03 17:03
+  </h3>
+  <div
+    class="ant-row fixture-Row"
+    style="margin-left: -8px; margin-right: -8px;"
+  >
+    <div
+      class="ant-col ant-col-12"
+      style="padding-left: 8px; padding-right: 8px;"
+    >
+      <div
+        class="club-wrapper justify-end "
+        data-testid="AppClub"
+      >
+        <img
+          alt="Manchester UnitedLogo"
+          data-testid="AppClubImg"
+          src="https://resources.premierleague.com/premierleague/badges/25/t1.png"
+        />
+        <span>
+           
+          Manchester United
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-col ant-col-2"
+      style="padding-left: 8px; padding-right: 8px;"
+    >
+      <span
+        class="fixture-center"
+      >
+        2
+         - 
+        2
+      </span>
+    </div>
+    <div
+      class="ant-col ant-col-10"
+      style="padding-left: 8px; padding-right: 8px;"
+    >
+      <div
+        class="club-wrapper  "
+        data-testid="AppClub"
+      >
+        <img
+          alt="ChelseaLogo"
+          data-testid="AppClubImg"
+          src="https://resources.premierleague.com/premierleague/badges/25/t8.png"
+        />
+        <span>
+           
+          Chelsea
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Fixture rendering renders AppFixture to match snapshot 1`] = `
+<div
+  class="fixture-wrapper"
+  data-testid="AppFixture"
+>
+  <h3
+    data-testid="AppFixtureHeading"
+  >
+    04/03 17:03
+  </h3>
+  <div
+    class="ant-row fixture-Row"
+    style="margin-left: -8px; margin-right: -8px;"
+  >
+    <div
+      class="ant-col ant-col-12"
+      style="padding-left: 8px; padding-right: 8px;"
+    >
+      <div
+        class="club-wrapper justify-end "
+        data-testid="AppClub"
+      >
+        <img
+          alt="Manchester UnitedLogo"
+          data-testid="AppClubImg"
+          src="https://resources.premierleague.com/premierleague/badges/25/t1.png"
+        />
+        <span>
+           
+          Manchester United
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-col ant-col-2"
+      style="padding-left: 8px; padding-right: 8px;"
+    >
+      <span
+        class="fixture-center"
+      >
+        2
+         - 
+        2
+      </span>
+    </div>
+    <div
+      class="ant-col ant-col-10"
+      style="padding-left: 8px; padding-right: 8px;"
+    >
+      <div
+        class="club-wrapper  "
+        data-testid="AppClub"
+      >
+        <img
+          alt="ChelseaLogo"
+          data-testid="AppClubImg"
+          src="https://resources.premierleague.com/premierleague/badges/25/t8.png"
+        />
+        <span>
+           
+          Chelsea
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

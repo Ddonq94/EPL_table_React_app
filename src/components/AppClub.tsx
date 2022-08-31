@@ -6,7 +6,11 @@ function AppClub({ testID = "AppClub", clubName, justifyEnd = false }: any) {
       data-testid={testID}
       className={`club-wrapper ${justifyEnd ? "justify-end" : ""} `}
     >
-      <img src={getTeamData(clubName).logo} alt={`${clubName}logo`} />
+      <img
+        data-testid={`${testID}Img`}
+        src={getTeamData(clubName)?.logo}
+        alt={`${clubName}Logo`}
+      />
       <span> {clubName}</span>
     </div>
   );

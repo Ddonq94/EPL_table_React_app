@@ -1,4 +1,4 @@
-// ==============================variables and constants====================================
+// ==============================variables and constants and methods====================================
 const data = [
   {
     score: {
@@ -115,9 +115,12 @@ const clubs = {
 
 let leagueTable: any[] = [];
 
-const baseDateObj = new Date(Date.parse("2021-05-05T14:00:00"));
+const getDateObjFromString = (dateString: string) => {
+  return new Date(Date.parse(dateString));
+};
 
-// ==============================helper methods====================================
+const baseDateObj = getDateObjFromString("2021-05-05T14:00:00");
+
 const isAfterBase = (date1: any) => {
   return date1 > baseDateObj;
 };
@@ -126,7 +129,7 @@ const getCleanedData = () => {
   // add isFutureFixture flag and dateObj (sorted by date) to data array
   return data
     .map((entry) => {
-      let dateObj = new Date(Date.parse(entry.date));
+      let dateObj = getDateObjFromString(entry.date);
       let isFutureFixture = isAfterBase(dateObj);
 
       return { ...entry, isFutureFixture, dateObj };

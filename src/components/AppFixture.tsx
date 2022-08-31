@@ -21,8 +21,14 @@ function AppFixture({ testID = "AppFixture", fixture }: any) {
         <>
           {fixture.isFutureFixture ? (
             <>
-              <Badge count={"Future"} offset={[30, 10]}>
-                <h3>{format(fixture.dateObj, "dd/MM HH:MM")}</h3>
+              <Badge
+                data-testid={`${testID}Badge`}
+                count={"Future"}
+                offset={[30, 10]}
+              >
+                <h3 data-testid={`${testID}Heading`}>
+                  {format(fixture.dateObj, "dd/MM HH:MM")}
+                </h3>
               </Badge>
               <Row className="fixture-Row" gutter={16}>
                 <Col span={12}>
@@ -41,7 +47,9 @@ function AppFixture({ testID = "AppFixture", fixture }: any) {
             </>
           ) : (
             <>
-              <h3>{format(fixture.dateObj, "dd/MM HH:MM")}</h3>
+              <h3 data-testid={`${testID}Heading`}>
+                {format(fixture.dateObj, "dd/MM HH:MM")}
+              </h3>
               <Row className="fixture-Row" gutter={16}>
                 <Col span={12}>
                   <AppClub clubName={teamA[0]} justifyEnd />
