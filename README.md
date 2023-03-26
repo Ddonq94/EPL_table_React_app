@@ -1,6 +1,6 @@
 # Getting Started with Premier League React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app for the English premier league table given JSON of fixtures and results with option to see fixtures and results by club, home and away
 
 ## Available Scripts
 
