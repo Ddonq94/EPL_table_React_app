@@ -1,5 +1,5 @@
 // ==============================variables and constants and methods====================================
-const data = [
+export const data = [
   {
     score: {
       "Manchester United": 1,
@@ -113,15 +113,15 @@ const clubs = {
   },
 };
 
-let leagueTable: any[] = [];
+export let leagueTable: any[] = [];
 
-const getDateObjFromString = (dateString: string) => {
+export const getDateObjFromString = (dateString: string) => {
   return new Date(Date.parse(dateString));
 };
 
-const baseDateObj = getDateObjFromString("2021-05-05T14:00:00");
+export const baseDateObj = getDateObjFromString("2021-05-05T14:00:00");
 
-const isAfterBase = (date1: any) => {
+export const isAfterBase = (date1: any) => {
   return date1 > baseDateObj;
 };
 

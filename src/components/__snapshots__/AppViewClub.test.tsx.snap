@@ -1,974 +1,435 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`League table rendering renders AppLeagueTable to match snapshot 1`] = `
-<div
-  class="ant-drawer ant-drawer-right ant-drawer-open"
-  data-testid="AppViewClub"
-  tabindex="-1"
->
-  <div
-    class="ant-drawer-mask"
-  />
-  <div
-    class="ant-drawer-content-wrapper"
-    style="width: 700px;"
-  >
-    <div
-      class="ant-drawer-content"
-    >
-      <div
-        class="ant-drawer-wrapper-body"
-      >
-        <div
-          class="ant-drawer-header"
-        >
-          <div
-            class="ant-drawer-header-title"
-          >
-            <button
-              aria-label="Close"
-              class="ant-drawer-close"
-              type="button"
-            >
-              <span
-                aria-label="close"
-                class="anticon anticon-close"
-                role="img"
-              >
-                <svg
-                  aria-hidden="true"
-                  data-icon="close"
-                  fill="currentColor"
-                  focusable="false"
-                  height="1em"
-                  viewBox="64 64 896 896"
-                  width="1em"
-                >
-                  <path
-                    d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div
-              class="ant-drawer-title"
-            >
-              Arsenal FC Fixtures
-            </div>
-          </div>
-        </div>
-        <div
-          class="ant-drawer-body"
-        >
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              04/01 17:01
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Manchester UnitedLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t1.png"
-                  />
-                  <span>
-                     
-                    Manchester United
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  6
-                   - 
-                  2
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              28/04 12:04
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  0
-                   - 
-                  0
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Leicester CityLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t13.png"
-                  />
-                  <span>
-                     
-                    Leicester City
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              02/05 17:05
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  2
-                   - 
-                  3
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="LiverpoolLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t14.png"
-                  />
-                  <span>
-                     
-                    Liverpool
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              04/05 12:05
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  1
-                   - 
-                  1
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Tottenham HotspurLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t6.png"
-                  />
-                  <span>
-                     
-                    Tottenham Hotspur
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <span
-              class="ant-badge"
-              data-testid="AppFixtureBadge"
-            >
-              <h3
-                data-testid="AppFixtureHeading"
-              >
-                11/05 12:05
-              </h3>
-              <sup
-                class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
-                data-show="true"
-                style="margin-top: 10px; right: -30px;"
-                title="Future"
-              >
-                Future
-              </sup>
-            </span>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  12:05
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ChelseaLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t8.png"
-                  />
-                  <span>
-                     
-                    Chelsea
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col"
-                style="padding-left: 8px; padding-right: 8px;"
-              />
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <span
-              class="ant-badge"
-              data-testid="AppFixtureBadge"
-            >
-              <h3
-                data-testid="AppFixtureHeading"
-              >
-                11/05 14:05
-              </h3>
-              <sup
-                class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
-                data-show="true"
-                style="margin-top: 10px; right: -30px;"
-                title="Future"
-              >
-                Future
-              </sup>
-            </span>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Manchester CityLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t43.png"
-                  />
-                  <span>
-                     
-                    Manchester City
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  14:05
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col"
-                style="padding-left: 8px; padding-right: 8px;"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`League table rendering renders AppViewClub to match snapshot 1`] = `
 <div
-  class="ant-drawer ant-drawer-right ant-drawer-open"
   data-testid="AppViewClub"
-  tabindex="-1"
 >
   <div
-    class="ant-drawer-mask"
-  />
-  <div
-    class="ant-drawer-content-wrapper"
-    style="width: 700px;"
+    class="fixture-wrapper"
+    data-testid="AppFixture"
   >
+    <h3
+      data-testid="AppFixtureHeading"
+    >
+      04/01 17:01
+    </h3>
     <div
-      class="ant-drawer-content"
+      class="ant-row fixture-Row"
+      style="margin-left: -8px; margin-right: -8px;"
     >
       <div
-        class="ant-drawer-wrapper-body"
+        class="ant-col ant-col-12"
+        style="padding-left: 8px; padding-right: 8px;"
       >
         <div
-          class="ant-drawer-header"
+          class="club-wrapper justify-end "
+          data-testid="AppClub"
         >
-          <div
-            class="ant-drawer-header-title"
-          >
-            <button
-              aria-label="Close"
-              class="ant-drawer-close"
-              type="button"
-            >
-              <span
-                aria-label="close"
-                class="anticon anticon-close"
-                role="img"
-              >
-                <svg
-                  aria-hidden="true"
-                  data-icon="close"
-                  fill="currentColor"
-                  focusable="false"
-                  height="1em"
-                  viewBox="64 64 896 896"
-                  width="1em"
-                >
-                  <path
-                    d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div
-              class="ant-drawer-title"
-            >
-              Arsenal FC Fixtures
-            </div>
-          </div>
-        </div>
-        <div
-          class="ant-drawer-body"
-        >
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              04/01 17:01
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Manchester UnitedLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t1.png"
-                  />
-                  <span>
-                     
-                    Manchester United
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  6
-                   - 
-                  2
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              28/04 12:04
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  0
-                   - 
-                  0
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Leicester CityLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t13.png"
-                  />
-                  <span>
-                     
-                    Leicester City
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              02/05 17:05
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  2
-                   - 
-                  3
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="LiverpoolLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t14.png"
-                  />
-                  <span>
-                     
-                    Liverpool
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <h3
-              data-testid="AppFixtureHeading"
-            >
-              04/05 12:05
-            </h3>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  1
-                   - 
-                  1
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Tottenham HotspurLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t6.png"
-                  />
-                  <span>
-                     
-                    Tottenham Hotspur
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <span
-              class="ant-badge"
-              data-testid="AppFixtureBadge"
-            >
-              <h3
-                data-testid="AppFixtureHeading"
-              >
-                11/05 12:05
-              </h3>
-              <sup
-                class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
-                data-show="true"
-                style="margin-top: 10px; right: -30px;"
-                title="Future"
-              >
-                Future
-              </sup>
-            </span>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  12:05
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ChelseaLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t8.png"
-                  />
-                  <span>
-                     
-                    Chelsea
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col"
-                style="padding-left: 8px; padding-right: 8px;"
-              />
-            </div>
-          </div>
-          <div
-            class="fixture-wrapper"
-            data-testid="AppFixture"
-          >
-            <span
-              class="ant-badge"
-              data-testid="AppFixtureBadge"
-            >
-              <h3
-                data-testid="AppFixtureHeading"
-              >
-                11/05 14:05
-              </h3>
-              <sup
-                class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
-                data-show="true"
-                style="margin-top: 10px; right: -30px;"
-                title="Future"
-              >
-                Future
-              </sup>
-            </span>
-            <div
-              class="ant-row fixture-Row"
-              style="margin-left: -8px; margin-right: -8px;"
-            >
-              <div
-                class="ant-col ant-col-12"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper justify-end "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="Manchester CityLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t43.png"
-                  />
-                  <span>
-                     
-                    Manchester City
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col ant-col-2"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <span
-                  class="fixture-center"
-                >
-                  14:05
-                </span>
-              </div>
-              <div
-                class="ant-col ant-col-10"
-                style="padding-left: 8px; padding-right: 8px;"
-              >
-                <div
-                  class="club-wrapper  "
-                  data-testid="AppClub"
-                >
-                  <img
-                    alt="ArsenalLogo"
-                    data-testid="AppClubImg"
-                    src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
-                  />
-                  <span>
-                     
-                    Arsenal
-                  </span>
-                </div>
-              </div>
-              <div
-                class="ant-col"
-                style="padding-left: 8px; padding-right: 8px;"
-              />
-            </div>
-          </div>
+          <img
+            alt="Manchester UnitedLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t1.png"
+          />
+          <span>
+             
+            Manchester United
+          </span>
         </div>
       </div>
+      <div
+        class="ant-col ant-col-2"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <span
+          class="fixture-center"
+        >
+          6 - 2
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-10"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper  "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ArsenalLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
+          />
+          <span>
+             
+            Arsenal
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col"
+        style="padding-left: 8px; padding-right: 8px;"
+      />
+    </div>
+  </div>
+  <div
+    class="fixture-wrapper"
+    data-testid="AppFixture"
+  >
+    <h3
+      data-testid="AppFixtureHeading"
+    >
+      28/04 12:04
+    </h3>
+    <div
+      class="ant-row fixture-Row"
+      style="margin-left: -8px; margin-right: -8px;"
+    >
+      <div
+        class="ant-col ant-col-12"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper justify-end "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ArsenalLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
+          />
+          <span>
+             
+            Arsenal
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-2"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <span
+          class="fixture-center"
+        >
+          0 - 0
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-10"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper  "
+          data-testid="AppClub"
+        >
+          <img
+            alt="Leicester CityLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t13.png"
+          />
+          <span>
+             
+            Leicester City
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col"
+        style="padding-left: 8px; padding-right: 8px;"
+      />
+    </div>
+  </div>
+  <div
+    class="fixture-wrapper"
+    data-testid="AppFixture"
+  >
+    <h3
+      data-testid="AppFixtureHeading"
+    >
+      02/05 17:05
+    </h3>
+    <div
+      class="ant-row fixture-Row"
+      style="margin-left: -8px; margin-right: -8px;"
+    >
+      <div
+        class="ant-col ant-col-12"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper justify-end "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ArsenalLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
+          />
+          <span>
+             
+            Arsenal
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-2"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <span
+          class="fixture-center"
+        >
+          2 - 3
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-10"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper  "
+          data-testid="AppClub"
+        >
+          <img
+            alt="LiverpoolLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t14.png"
+          />
+          <span>
+             
+            Liverpool
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col"
+        style="padding-left: 8px; padding-right: 8px;"
+      />
+    </div>
+  </div>
+  <div
+    class="fixture-wrapper"
+    data-testid="AppFixture"
+  >
+    <h3
+      data-testid="AppFixtureHeading"
+    >
+      04/05 12:05
+    </h3>
+    <div
+      class="ant-row fixture-Row"
+      style="margin-left: -8px; margin-right: -8px;"
+    >
+      <div
+        class="ant-col ant-col-12"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper justify-end "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ArsenalLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
+          />
+          <span>
+             
+            Arsenal
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-2"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <span
+          class="fixture-center"
+        >
+          1 - 1
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-10"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper  "
+          data-testid="AppClub"
+        >
+          <img
+            alt="Tottenham HotspurLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t6.png"
+          />
+          <span>
+             
+            Tottenham Hotspur
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col"
+        style="padding-left: 8px; padding-right: 8px;"
+      />
+    </div>
+  </div>
+  <div
+    class="fixture-wrapper"
+    data-testid="AppFixture"
+  >
+    <span
+      class="ant-badge"
+      data-testid="AppFixtureBadge"
+    >
+      <h3
+        data-testid="AppFixtureHeading"
+      >
+        11/05 12:05
+      </h3>
+      <sup
+        class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+        data-show="true"
+        style="margin-top: 10px; right: -30px;"
+        title="Future"
+      >
+        Future
+      </sup>
+    </span>
+    <div
+      class="ant-row fixture-Row"
+      style="margin-left: -8px; margin-right: -8px;"
+    >
+      <div
+        class="ant-col ant-col-12"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper justify-end "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ArsenalLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
+          />
+          <span>
+             
+            Arsenal
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-2"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <span
+          class="fixture-center"
+        >
+          12:05
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-10"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper  "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ChelseaLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t8.png"
+          />
+          <span>
+             
+            Chelsea
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col"
+        style="padding-left: 8px; padding-right: 8px;"
+      />
+    </div>
+  </div>
+  <div
+    class="fixture-wrapper"
+    data-testid="AppFixture"
+  >
+    <span
+      class="ant-badge"
+      data-testid="AppFixtureBadge"
+    >
+      <h3
+        data-testid="AppFixtureHeading"
+      >
+        11/05 14:05
+      </h3>
+      <sup
+        class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+        data-show="true"
+        style="margin-top: 10px; right: -30px;"
+        title="Future"
+      >
+        Future
+      </sup>
+    </span>
+    <div
+      class="ant-row fixture-Row"
+      style="margin-left: -8px; margin-right: -8px;"
+    >
+      <div
+        class="ant-col ant-col-12"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper justify-end "
+          data-testid="AppClub"
+        >
+          <img
+            alt="Manchester CityLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t43.png"
+          />
+          <span>
+             
+            Manchester City
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-2"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <span
+          class="fixture-center"
+        >
+          14:05
+        </span>
+      </div>
+      <div
+        class="ant-col ant-col-10"
+        style="padding-left: 8px; padding-right: 8px;"
+      >
+        <div
+          class="club-wrapper  "
+          data-testid="AppClub"
+        >
+          <img
+            alt="ArsenalLogo"
+            data-testid="AppClubImg"
+            src="https://resources.premierleague.com/premierleague/badges/25/t3.png"
+          />
+          <span>
+             
+            Arsenal
+          </span>
+        </div>
+      </div>
+      <div
+        class="ant-col"
+        style="padding-left: 8px; padding-right: 8px;"
+      />
     </div>
   </div>
 </div>

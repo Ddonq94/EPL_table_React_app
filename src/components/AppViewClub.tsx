@@ -25,16 +25,17 @@ function AppViewClub({
       placement="right"
       onClose={handleClose}
       visible={visible}
-      data-testid={testID}
       width={700}
     >
-      {teamFixtures.map((fixture: any) => {
-        const itemKey = JSON.stringify(fixture)
-          .replace(/"|{|}|:|,|-/g, "")
-          .replace(" ", "");
+      <div data-testid={testID}>
+        {teamFixtures.map((fixture: any) => {
+          const itemKey = JSON.stringify(fixture)
+            .replace(/"|{|}|:|,|-/g, "")
+            .replace(" ", "");
 
-        return <AppFixture fixture={fixture} key={itemKey} />;
-      })}
+          return <AppFixture fixture={fixture} key={itemKey} />;
+        })}
+      </div>
     </Drawer>
   );
 }

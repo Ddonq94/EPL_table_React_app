@@ -1,22 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Club rendering renders AppClub for Liverpool match snapshot 1`] = `
-<div
-  class="club-wrapper  "
-  data-testid="AppClub"
->
-  <img
-    alt="LiverpoolLogo"
-    data-testid="AppClubImg"
-    src="https://resources.premierleague.com/premierleague/badges/25/t14.png"
-  />
-  <span>
-     
-    Liverpool
-  </span>
-</div>
-`;
-
 exports[`Club rendering renders AppClub to match snapshot 1`] = `
 <div
   class="club-wrapper  "
